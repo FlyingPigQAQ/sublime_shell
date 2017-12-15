@@ -1,0 +1,17 @@
+//
+// Default values for Preferences.sublime-settings
+
+{
+    //Custome shell command settings
+    //Set remote host,port and upload path
+    //To use this plugin ordinary,you should do these things
+    //1. Install python and set system environment variable
+    //2. Ensure remote server open ssh process
+    //3. pip install paramiko
+    "host":"{{HOST}}",
+    "port":"{{PORT}}",
+    "remotePath":"{{REMOTEPATH}}",
+    "user": "{{USER}}",
+    "password": "{{PASSWORD}}"
+    
+}

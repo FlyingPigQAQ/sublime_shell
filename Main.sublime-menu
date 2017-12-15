@@ -1,0 +1,44 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Send to Shell",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings - User",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/sublime_shell/SublimeShell.sublime-settings",
+                                    "default": "//User Settings\n\n    {\n\n   }\n"
+                                }
+                            },
+                            {
+                                "caption": "-"
+                            },
+                            {
+                                "caption": "Key Bindings - Default",
+                                "command": "edit_settings",
+                                "args": {
+                                    "file": "${packages}/sublime_shell/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                }
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
